@@ -1,9 +1,10 @@
+import LandingPage from "./components/pages/Landing/LandingPage";
 
 
 function App() {
   return (
     <div>
-      Hello World
+      <LandingPage />
     </div>
   );
 }
