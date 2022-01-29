@@ -1,3 +1,4 @@
+import FeaturedCard from '../../FeaturedCard/FeaturedCard';
 import './project.css';
 
 function ProjectPage() {
@@ -12,7 +13,9 @@ function ProjectPage() {
                 </div>
             </div>
             <div className='featured__wrapper'>
-                
+                <FeaturedCard />
+                <FeaturedCard />
+                <FeaturedCard />
             </div>
         </div>
     );
