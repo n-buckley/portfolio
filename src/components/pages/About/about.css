@@ -1,0 +1,75 @@
+
+.a-page {
+    width: 100vw; /*TODO: I'm not sure why vw isn't working */
+    height: 100vh;
+}
+
+.title_wrapper { 
+    height: 20%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+}
+
+.content__wrapper {
+    height: 80%;
+    width: 60%;
+    margin: auto;
+
+    display: flex;
+}
+
+.content__image { 
+    flex: 2;
+
+    display: flex;
+    align-items: center;
+}
+
+/* TODO: Why the hell isnt it a full circle */
+.image {
+    clip-path: circle(50% at 50% 50%);
+    width: 15vw;
+    height: 15vw;
+    margin: auto;
+    background-color: black;
+}
+
+.content__right {
+    flex: 3;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: auto;
+
+}
+
+.right__about-me {
+    width: 80%;
+
+}
+
+.right__skill-wrapper { 
+    width: 80%;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.skill__item {
+    width: 45%;
+
+}
