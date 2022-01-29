@@ -2,7 +2,7 @@ import './about.css';
 
 function AboutPage(){
     return (
-        <div className='page'>
+        <div className='a-page'>
             <div className='title_wrapper'>
                 <div className='title'>
                     <h2>About Me</h2>

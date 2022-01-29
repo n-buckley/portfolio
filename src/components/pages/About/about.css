@@ -1,6 +1,6 @@
 
-.page {
-    width: 100%; /*TODO: I'm not sure why vw isn't working */
+.a-page {
+    width: 100vw; /*TODO: I'm not sure why vw isn't working */
     height: 100vh;
 }
 
