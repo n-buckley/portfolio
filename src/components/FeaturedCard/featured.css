@@ -1,0 +1,65 @@
+.feat-card {
+    height: auto;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    
+}
+
+.feat-card__prev {
+    flex: 1;
+
+    display: flex;
+    align-items: center;
+}
+
+.prev__img {
+    clip-path: inset(5% 0 15% 3%);
+    width: 20vw;
+    height: 35vh;
+    margin: auto;
+    background-color: black;
+}
+
+.feat-card__content {
+    flex: 1;
+    height: 35vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.content__text {
+    text-align: right;
+}
+
+.content__tech {
+    display: flex;
+    justify-content: right;
+}
+
+.tech__item {
+    border: 2px solid black;
+    width: auto;
+    padding-right: 2%;
+    padding-left: 2%;
+    text-align: center;
+}
+
+.content__links {
+    display: flex;
+    justify-content: right;
+}
+
+.links__item {
+    border: 2px solid black;
+    width: auto;
+    padding-right: 2%;
+    padding-left: 2%;
+    text-align: center;
+}
+
+
