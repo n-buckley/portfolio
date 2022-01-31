@@ -1,3 +1,4 @@
+import { Projects } from '../../../data/ProjectData';
 import FeaturedCard from '../../FeaturedCard/FeaturedCard';
 import './project.css';
 
@@ -13,9 +14,7 @@ function ProjectPage() {
                 </div>
             </div>
             <div className='featured__wrapper'>
-                <FeaturedCard />
-                <FeaturedCard />
-                <FeaturedCard />
+                {Projects.map(project => {return <FeaturedCard key={project.id} project={project}/>})}
             </div>
         </div>
     );
