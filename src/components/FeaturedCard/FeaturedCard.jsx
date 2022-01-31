@@ -1,6 +1,6 @@
 import './featured.css';
 
-function FeaturedCard() {
+function FeaturedCard(props) {
     return (
         <div className='feat-card'>
             <div className='feat-card__prev'>
@@ -9,12 +9,10 @@ function FeaturedCard() {
             <div className='feat-card__content'>
                 <div className='content__text'>
                     <div>
-                        <h2>Title</h2>
+                        <h2>{props.project.title}</h2>
                     </div>
                     <div>
-                        <p>I blurb sentence here and her is where a blub about me would 
-                            go about what I professionaly enjoy doing! and other things 
-                            that I like doing and intersection of this </p>
+                        <p>{props.project.desc} </p>
                     </div>
                 </div>
                 <div className='content__tech'>
@@ -30,17 +28,17 @@ function FeaturedCard() {
                 </div>
                 <div className='content__links'>
                     <div className='links__item'>
-                        <a href='github.com'>
+                        <a href='https://www.github.com' target="__blank" rel="noreferrer noopener">
                             Git
                         </a>
                     </div>
                     <div className='links__item'>
-                        <a href='google.com'>
+                        <a href='https://www.google.com' target="__blank" rel="noreferrer noopener">
                             Google
                         </a>
                     </div>
-                    <div className='links__item'>
-                        <a href='devpost.com'>
+                    <div className='links__item' target="__blank" rel="noreferrer noopener">
+                        <a href='https://www.devpost.com'>
                             DevPost
                         </a>
                     </div>
